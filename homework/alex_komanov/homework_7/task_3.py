@@ -5,6 +5,7 @@ def process_line(line: str) -> int:
     parts = line.split(':')
     return int(parts[-1].strip()) + 10
 
+
 # Список строк с результатами
 results = [
     "результат операции: 42",
